@@ -1,9 +1,9 @@
 /*!
- * dashrotectionnow: Front-end site library
+ * dashprotection: Front-end site library
  * @license MIT
  * Inline scripts may access the api using an async handler:
- *   var dashrotectionnow = dashrotectionnow || [];
- *   dashrotectionnow.push(readyFunction);
+ *   var dashprotection = dashprotection || [];
+ *   dashprotection.push(readyFunction);
  */
 ! function (e) {
     var t = {};
@@ -186,7 +186,7 @@
     var r = {},
         i = {},
         o = [],
-        a = window.dashrotectionnow || [],
+        a = window.dashprotection || [],
         c = window.jQuery,
         u = c(window),
         s = c(document),
@@ -222,7 +222,7 @@
     }, r.env = function (e) {
         var t = window.__wf_design,
             n = void 0 !== t;
-        return e ? "design" === e ? n && t : "preview" === e ? n && !t : "slug" === e ? n && window.__wf_slug : "editor" === e ? window.dashrotectionnowEditor : "test" === e ? window.__wf_test : "frame" === e ? window !== window.top : void 0 : n
+        return e ? "design" === e ? n && t : "preview" === e ? n && !t : "slug" === e ? n && window.__wf_slug : "editor" === e ? window.dashprotectionEditor : "test" === e ? window.__wf_test : "frame" === e ? window !== window.top : void 0 : n
     };
     var v, E = navigator.userAgent.toLowerCase(),
         b = r.env.touch = "ontouchstart" in window || window.DocumentTouch && document instanceof window.DocumentTouch,
@@ -235,7 +235,7 @@
     } : function () {
         return !0
     };
-    var y, O = "resize.dashrotectionnow orientationchange.dashrotectionnow load.dashrotectionnow";
+    var y, O = "resize.dashprotection orientationchange.dashprotection load.dashprotection";
 
     function g(e, t) {
         var n = [],
@@ -260,7 +260,7 @@
     function S() {
         y && (y.reject(), u.off("load", y.resolve)), y = new c.Deferred, u.on("load", y.resolve)
     }
-    r.resize = g(u, O), r.scroll = g(u, "scroll.dashrotectionnow resize.dashrotectionnow orientationchange.dashrotectionnow load.dashrotectionnow"), r.redraw = g(), r.location = function (e) {
+    r.resize = g(u, O), r.scroll = g(u, "scroll.dashprotection resize.dashprotection orientationchange.dashprotection load.dashprotection"), r.redraw = g(), r.location = function (e) {
         window.location = e
     }, r.env() && (r.location = function () { }), r.ready = function () {
         p = !0, h ? (h = !1, f.each(i, M)) : f.each(o, T), f.each(a, T), r.resize.up()
@@ -268,7 +268,7 @@
         y.then(e)
     }, r.destroy = function (e) {
         e = e || {}, h = !0, u.triggerHandler("__wf_destroy"), null != e.domready && (p = e.domready), f.each(i, m), r.resize.off(), r.scroll.off(), r.redraw.off(), o = [], a = [], "pending" === y.state() && S()
-    }, c(r.ready), S(), e.exports = window.dashrotectionnow = r
+    }, c(r.ready), S(), e.exports = window.dashprotection = r
 }, function (e, t, n) {
     var r = n(3),
         i = n(9),
@@ -470,12 +470,12 @@
     t.CSV_INTEGRATION_CURRENCY_TEMPLATE = O;
     t.DOWNLOAD_FILES_FAKE_DATA = [{
         id: "5d8fcb6d94dd1853060fb3b3",
-        name: "The modern web design process - dashrotectionnow Ebook.pdf",
-        url: "https://assets-global.website-files.com/5cf6b7202bf8199f50d43e6c/5e9dd8a680b972888929747b_The%20modern%20web%20design%20process%20-%20dashrotectionnow%20Ebook.pdf"
+        name: "The modern web design process - dashprotection Ebook.pdf",
+        url: "https://assets-global.website-files.com/5cf6b7202bf8199f50d43e6c/5e9dd8a680b972888929747b_The%20modern%20web%20design%20process%20-%20dashprotection%20Ebook.pdf"
     }, {
         id: "5d8fcb6d94dd1853060fb3b4",
-        name: "The freelance web designers guide - dashrotectionnow Ebook.pdf",
-        url: "https://assets-global.website-files.com/5cf6b7202bf8199f50d43e6c/5e9dd8e6abe52b33243a22cf_The%20freelance%20web%20designer%E2%80%99s%20guide%20-%20dashrotectionnow%20Ebook.pdf"
+        name: "The freelance web designers guide - dashprotection Ebook.pdf",
+        url: "https://assets-global.website-files.com/5cf6b7202bf8199f50d43e6c/5e9dd8e6abe52b33243a22cf_The%20freelance%20web%20designer%E2%80%99s%20guide%20-%20dashprotection%20Ebook.pdf"
     }];
     t.DOWNLOAD_FILES_KEY_PATH = "download-files";
     t.DOWNLOAD_FILES_EDITABLE_FIELDS = {
@@ -1465,7 +1465,7 @@
         }), t) : t
     };
     t.setElementLoading = function (e) {
-        var t = window.dashrotectionnow.tram(e);
+        var t = window.dashprotection.tram(e);
         t.set({
             opacity: .2
         }), t.add("opacity 500ms ease-in-out");
@@ -1790,12 +1790,12 @@
         var t = arguments.length > 1 && void 0 !== arguments[1] && arguments[1],
             n = l();
         if (n) return t ? setTimeout(function () {
-            return window.dashrotectionnow.location(n)
-        }, 3e3) : window.dashrotectionnow.location(n);
+            return window.dashprotection.location(n)
+        }, 3e3) : window.dashprotection.location(n);
         if (!e) return;
         return t ? setTimeout(function () {
-            return window.dashrotectionnow.location(e)
-        }, 3e3) : window.dashrotectionnow.location(e)
+            return window.dashprotection.location(e)
+        }, 3e3) : window.dashprotection.location(e)
     }, t.getSignupErrorCode = t.userFormError = t.handleErrorNode = t.getErrorAttrName = t.userSystemsRequestClient = void 0;
     var r = n(312),
         i = n(26),
@@ -5056,7 +5056,7 @@
         s = n(20),
         l = function () {
             function e(t) {
-                if ((0, o.default)(this, e), !window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview")) {
+                if ((0, o.default)(this, e), !window.dashprotection.env("design") && !window.dashprotection.env("preview")) {
                     var n = t.querySelector("[".concat(s.STRIPE_ECOMMERCE_KEY, "]"));
                     if (!n) return this.store = {
                         initialized: !1,
@@ -6683,7 +6683,7 @@
                     timezone: a,
                     pageLinkHrefPrefix: c,
                     collectionSlugMap: s,
-                    currencySettings: window.__dashrotectionnow_CURRENCY_SETTINGS
+                    currencySettings: window.__dashprotection_CURRENCY_SETTINGS
                 }),
                     b = "detailPage" === r.type ? E : null,
                     A = _(t, p, b);
@@ -6939,7 +6939,7 @@
         h = n(227),
         M = n(377);
     t.initializeStripeElements = function (e) {
-        if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview") && e.isInitialized()) {
+        if (!window.dashprotection.env("design") && !window.dashprotection.env("preview") && e.isInitialized()) {
             var t = (0, l.findAllElementsByNodeType)(d.NODE_TYPE_COMMERCE_CHECKOUT_FORM_CONTAINER),
                 n = (0, l.findAllElementsByNodeType)(d.NODE_TYPE_COMMERCE_CART_WRAPPER);
             [].concat((0, o.default)(t), (0, o.default)(n)).forEach(function (t, n) {
@@ -7186,7 +7186,7 @@
             n = "/order-confirmation?orderId=".concat(e.orderId, "&token=").concat(e.token);
         if (t) {
             var r = {
-                isdashrotectionnow: !0,
+                isdashprotection: !0,
                 type: "success",
                 detail: n
             };
@@ -11307,7 +11307,7 @@
     };
     var m = u.default(a()),
         v = function (e, t, n) {
-            if (e.preventDefault(), window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview")) window.dashrotectionnow.env("preview") && window.alert("Web Payments is not available in preview mode.");
+            if (e.preventDefault(), window.dashprotection.env("design") || window.dashprotection.env("preview")) window.dashprotection.env("preview") && window.alert("Web Payments is not available in preview mode.");
             else {
                 var r = e.currentTarget,
                     a = (0, s.findClosestElementWithAttribute)(p.STRIPE_ELEMENT_INSTANCE, r);
@@ -18275,7 +18275,7 @@
             i = document,
             o = e("html"),
             a = e("body"),
-            c = ".w-dashrotectionnow-badge",
+            c = ".w-dashprotection-badge",
             u = window.location,
             s = /PhantomJS/i.test(navigator.userAgent),
             l = "fullscreenchange webkitfullscreenchange mozfullscreenchange msfullscreenchange";
@@ -18294,10 +18294,10 @@
         return n.ready = function () {
             var n, r, a, c = o.attr("data-wf-status"),
                 p = o.attr("data-wf-domain") || "";
-            /\.dashrotectionnow\.io$/i.test(p) && u.hostname !== p && (c = !0), c && !s && (t = t || (n = e('<a class="w-dashrotectionnow-badge"></a>').attr("href", "https://dashrotectionnow.com"), r = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/dashrotectionnow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
+            /\.dashprotection\.io$/i.test(p) && u.hostname !== p && (c = !0), c && !s && (t = t || (n = e('<a class="w-dashprotection-badge"></a>').attr("href", "https://dashprotection.com"), r = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/dashprotection-badge-icon.f67cd735e3.svg").attr("alt", "").css({
                 marginRight: "8px",
                 width: "16px"
-            }), a = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/dashrotectionnow-badge-text.6faa6a38cd.svg").attr("alt", "Made in dashrotectionnow"), n.append(r, a), n[0]), d(), setTimeout(d, 500), e(i).off(l, f).on(l, f))
+            }), a = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/dashprotection-badge-text.6faa6a38cd.svg").attr("alt", "Made in dashprotection"), n.append(r, a), n[0]), d(), setTimeout(d, 500), e(i).off(l, f).on(l, f))
         }, n
     })
 }, function (e, t, n) {
@@ -18305,7 +18305,7 @@
     var r = window.$,
         i = n(229) && r.tram;
     /*!
-     * dashrotectionnow._ (aka) Underscore.js 1.6.0 (custom build)
+     * dashprotection._ (aka) Underscore.js 1.6.0 (custom build)
      * _.each
      * _.map
      * _.find
@@ -18314,7 +18314,7 @@
      * _.contains
      * _.delay
      * _.defer
-     * _.throttle (dashrotectionnow)
+     * _.throttle (dashprotection)
      * _.debounce
      * _.keys
      * _.has
@@ -18327,7 +18327,7 @@
      */
     e.exports = function () {
         var e = {
-            VERSION: "1.6.0-dashrotectionnow"
+            VERSION: "1.6.0-dashprotection"
         },
             t = {},
             n = Array.prototype,
@@ -18480,10 +18480,10 @@
             c = document.location,
             u = "hashchange",
             s = n.load || function () {
-                i = !0, window.dashrotectionnowEditor = !0, o.off(u, f),
+                i = !0, window.dashprotectionEditor = !0, o.off(u, f),
                     function (e) {
                         var t = window.document.createElement("iframe");
-                        t.src = "https://dashrotectionnow.com/site/third-party-cookie-check.html", t.style.display = "none", t.sandbox = "allow-scripts allow-same-origin";
+                        t.src = "https://dashprotection.com/site/third-party-cookie-check.html", t.style.display = "none", t.sandbox = "allow-scripts allow-same-origin";
                         var n = function n(r) {
                             "WF_third_party_cookies_unsupported" === r.data ? (v(t, n), e(!1)) : "WF_third_party_cookies_supported" === r.data && (v(t, n), e(!0))
                         };
@@ -18492,7 +18492,7 @@
                         }, window.addEventListener("message", n, !1), window.document.body.appendChild(t)
                     }(function (t) {
                         e.ajax({
-                            url: m("https://editor-api.dashrotectionnow.com/api/editor/view"),
+                            url: m("https://editor-api.dashprotection.com/api/editor/view"),
                             data: {
                                 siteId: a.attr("data-wf-site")
                             },
@@ -18507,7 +18507,7 @@
             },
             l = !1;
         try {
-            l = localStorage && localStorage.getItem && localStorage.getItem("dashrotectionnowEditor")
+            l = localStorage && localStorage.getItem && localStorage.getItem("dashprotectionEditor")
         } catch (e) { }
 
         function f() {
@@ -18518,7 +18518,7 @@
             return function (t) {
                 t ? (t.thirdPartyCookiesSupported = e, p(M(t.bugReporterScriptPath), function () {
                     p(M(t.scriptPath), function () {
-                        window.dashrotectionnowEditor(t)
+                        window.dashprotectionEditor(t)
                     })
                 })) : console.error("Could not load editor data")
             }
@@ -18538,7 +18538,7 @@
         }
 
         function M(e) {
-            return e.indexOf("//") >= 0 ? e : m("https://editor-api.dashrotectionnow.com" + e)
+            return e.indexOf("//") >= 0 ? e : m("https://editor-api.dashprotection.com" + e)
         }
 
         function m(e) {
@@ -19954,7 +19954,7 @@
         }
     };
     t.createPluginInstance = function (e) {
-        var t = window.dashrotectionnow.require("lottie").createInstance(e);
+        var t = window.dashprotection.require("lottie").createInstance(e);
         return t.stop(), t.setSubframe(!0), t
     };
     t.renderPlugin = function (e, t, n) {
@@ -19964,7 +19964,7 @@
         }
     };
     t.clearPlugin = function (e) {
-        window.dashrotectionnow.require("lottie").createInstance(e).stop()
+        window.dashprotection.require("lottie").createInstance(e).stop()
     }
 }, function (e, t, n) {
     "use strict";
@@ -22166,10 +22166,10 @@
     }, t.init = function (e) {
         var t = e.siteId;
         M = (0, o.createApolloClient)({
-            path: window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview") ? "/api/v1/sites/".concat(t, "/apollo") : b,
+            path: window.dashprotection.env("design") || window.dashprotection.env("preview") ? "/api/v1/sites/".concat(t, "/apollo") : b,
             maxAttempts: 5,
             useCsrf: !0
-        }), m = new d.StripeStore(document), h = new a.default(M, m), c.default.register(h), u.default.register(h), s.default.register(h), l.default.register(h), f.default.register(h), E.default.register(h), (0, v.initializeStripeElements)(m), _(), A(), (0, p.triggerRender)(null, !0), window.dashrotectionnow.env() || window.dashrotectionnow.load((0, E.renderPaypalButtons)(M))
+        }), m = new d.StripeStore(document), h = new a.default(M, m), c.default.register(h), u.default.register(h), s.default.register(h), l.default.register(h), f.default.register(h), E.default.register(h), (0, v.initializeStripeElements)(m), _(), A(), (0, p.triggerRender)(null, !0), window.dashprotection.env() || window.dashprotection.load((0, E.renderPaypalButtons)(M))
     }, t.preview = function () {
         _(), A(), (0, p.triggerRender)(null, !0)
     }, n(532), n(533), n(295), n(637), n(641), n(646), n(649);
@@ -27578,7 +27578,7 @@
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.fetchWithCsrf = function (e, t) {
-        if (window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview")) return fetch(e, t);
+        if (window.dashprotection.env("design") || window.dashprotection.env("preview")) return fetch(e, t);
         var n = u(),
             r = t && t.headers || {};
         return new Promise(function (o, s) {
@@ -31285,7 +31285,7 @@
                                         return function (e, t, n) {
                                             if (["f_weight_", "f_width_", "f_length_", "f_height_", "f_sku_"].some(function (t) {
                                                 return e.from === t
-                                            }) && (t["innerHTML" === e.to ? "innerText" : e.to] = n[e.from] || "", ee(t)), "f_price_" === e.from && n.f_price_ && (t["innerHTML" === e.to ? "innerText" : e.to] = (0, _.renderPriceFromSettings)(n.f_price_, window.__dashrotectionnow_CURRENCY_SETTINGS), ee(t)), "f_compare_at_price_7dr10dr" === e.from && (n.f_compare_at_price_7dr10dr ? t["innerHTML" === e.to ? "innerText" : e.to] = (0, _.renderPriceFromSettings)(n.f_compare_at_price_7dr10dr, window.__dashrotectionnow_CURRENCY_SETTINGS) : t["innerHTML" === e.to ? "innerText" : e.to] = "", ee(t)), "f_main_image_4dr" === e.from || "f_main_image_4dr.url" === e.from) {
+                                            }) && (t["innerHTML" === e.to ? "innerText" : e.to] = n[e.from] || "", ee(t)), "f_price_" === e.from && n.f_price_ && (t["innerHTML" === e.to ? "innerText" : e.to] = (0, _.renderPriceFromSettings)(n.f_price_, window.__dashprotection_CURRENCY_SETTINGS), ee(t)), "f_compare_at_price_7dr10dr" === e.from && (n.f_compare_at_price_7dr10dr ? t["innerHTML" === e.to ? "innerText" : e.to] = (0, _.renderPriceFromSettings)(n.f_compare_at_price_7dr10dr, window.__dashprotection_CURRENCY_SETTINGS) : t["innerHTML" === e.to ? "innerText" : e.to] = "", ee(t)), "f_main_image_4dr" === e.from || "f_main_image_4dr.url" === e.from) {
                                                 var r = (0, v.default)(n, e.from.replace(/\.url$/, ""));
                                                 "style.background-image" === e.to ? t.style.backgroundImage = r && r.url ? 'url("'.concat(r.url, '")') : "none" : "media" === e.to ? t.classList.contains("w-lightbox") && te(t, r) : "src" === e.to && (r && r.url ? (t.src = r.url, (0, A.removeWDynBindEmptyClass)(t), t.hasAttribute("srcset") && t.removeAttribute("srcset")) : (t.removeAttribute("src"), t.classList.add(h.CLASS_NAME_W_DYN_BIND_EMPTY)))
                                             }
@@ -31312,7 +31312,7 @@
                             });
                             var f = r(t).siblings("[".concat(d.DATA_ATTR_NODE_TYPE, '="').concat(d.NODE_TYPE_COMMERCE_ADD_TO_CART_ERROR, '"]'))[0];
                             f instanceof Element && (f.style.display = "none")
-                        }), window.dashrotectionnow.require("lightbox") && window.dashrotectionnow.require("lightbox").ready()
+                        }), window.dashprotection.require("lightbox") && window.dashprotection.require("lightbox").ready()
                     } else C(e, {
                         selectedSku: ""
                     })
@@ -31322,14 +31322,14 @@
         Q = function (e, t, n) {
             if (e instanceof CustomEvent && e.type === d.RENDER_TREE_EVENT) {
                 var r = document.querySelectorAll("[".concat(d.DATA_ATTR_NODE_TYPE, '="').concat(d.NODE_TYPE_COMMERCE_ADD_TO_CART_FORM, '"]'));
-                window.dashrotectionnow.env("preview") ? e.detail.isInitial && (0, O.default)(r, function (e) {
+                window.dashprotection.env("preview") ? e.detail.isInitial && (0, O.default)(r, function (e) {
                     var t = new N.PillGroups(e, function (e) {
                         var n = e.optionId,
                             r = e.optionSetId;
                         t.setSelectedPillsForSkuValues((0, i.default)({}, r, n))
                     });
                     t.init()
-                }) : window.dashrotectionnow.env("design") || (0, O.default)(r, function (r) {
+                }) : window.dashprotection.env("design") || (0, O.default)(r, function (r) {
                     var o = (0, b.findElementByNodeType)(d.NODE_TYPE_COMMERCE_ADD_TO_CART_BUTTON, r);
                     if (o) {
                         var a = document.querySelectorAll("[".concat(d.DATA_ATTR_NODE_TYPE, '="').concat(d.NODE_TYPE_COMMERCE_CART_WRAPPER, '"][').concat(d.DATA_ATTR_OPEN_PRODUCT, "]"));
@@ -31522,7 +31522,7 @@
             return t instanceof Element && t.getAttribute(d.DATA_ATTR_NODE_TYPE) === d.NODE_TYPE_COMMERCE_BUY_NOW_BUTTON
         },
         re = function (e, t) {
-            if (e.preventDefault(), !window.dashrotectionnow.env("preview")) {
+            if (e.preventDefault(), !window.dashprotection.env("preview")) {
                 var n = e.target,
                     r = (0, b.findClosestElementByNodeType)(d.NODE_TYPE_COMMERCE_ADD_TO_CART_FORM, n);
                 if (n instanceof HTMLAnchorElement && r instanceof HTMLFormElement && !n.classList.contains("w--ecommerce-buy-now-disabled")) {
@@ -32849,7 +32849,7 @@
         value: !0
     }), t.getConst = t.of = t.Const = t.ConstType = void 0;
     var i = Object.create,
-        o = "@dashrotectionnow/Const/value";
+        o = "@dashprotection/Const/value";
     t.ConstType = function e() {
         (0, r.default)(this, e)
     };
@@ -32875,7 +32875,7 @@
         value: !0
     }), t.runIdentity = t.of = t.Identity = t.IdentityType = void 0;
     var i = Object.create,
-        o = "@dashrotectionnow/Identity/value";
+        o = "@dashprotection/Identity/value";
     t.IdentityType = function e() {
         (0, r.default)(this, e)
     };
@@ -32904,7 +32904,7 @@
         o = function () {
             return this
         },
-        a = "@dashrotectionnow/Option";
+        a = "@dashprotection/Option";
     t.Option = function e() {
         (0, r.default)(this, e)
     };
@@ -32971,8 +32971,8 @@
         o = function () {
             return this
         },
-        a = "@dashrotectionnow/Result/value",
-        c = "@dashrotectionnow/Result/error";
+        a = "@dashprotection/Result/value",
+        c = "@dashprotection/Result/error";
     t.Result = function e() {
         (0, r.default)(this, e)
     };
@@ -34362,10 +34362,10 @@
         f = i(n(19)),
         d = i(n(773)),
         p = {
-            "@dashrotectionnow/Boolean": !0
+            "@dashprotection/Boolean": !0
         },
         h = {
-            "@dashrotectionnow/Boolean": !1
+            "@dashprotection/Boolean": !1
         },
         M = function (e, t) {
             if (e === t || e != e && t != t) return !0;
@@ -36544,7 +36544,7 @@
         })).forEach(function (e) {
             document.cookie.split(";").some(function (e) {
                 return e.indexOf(i.LOGGEDIN_COOKIE_NAME) > -1
-            }) ? (e.innerHTML = e.getAttribute(i.USYS_DATA_ATTRS.logout) || "Log out", e.removeEventListener("click", c), e.addEventListener("click", u)) : window.dashrotectionnow.env("design") || (e.innerHTML = e.getAttribute(i.USYS_DATA_ATTRS.login) || "Log in", e.removeEventListener("click", u), e.addEventListener("click", c))
+            }) ? (e.innerHTML = e.getAttribute(i.USYS_DATA_ATTRS.logout) || "Log out", e.removeEventListener("click", c), e.addEventListener("click", u)) : window.dashprotection.env("design") || (e.innerHTML = e.getAttribute(i.USYS_DATA_ATTRS.login) || "Log in", e.removeEventListener("click", u), e.addEventListener("click", c))
         });
         var e
     }, t.asyncLogOutUser = s;
@@ -36554,12 +36554,12 @@
         a = "[".concat(i.USYS_DATA_ATTRS.logout, "]");
 
     function c() {
-        window.dashrotectionnow.env("preview") || (window.location = "/log-in")
+        window.dashprotection.env("preview") || (window.location = "/log-in")
     }
 
     function u(e) {
         e.preventDefault(), s().then(function () {
-            window.dashrotectionnow.location("/")
+            window.dashprotection.location("/")
         })
     }
 
@@ -36684,7 +36684,7 @@
     Object.defineProperty(t, "__esModule", {
         value: !0
     }), t.handleUserSubscriptionLists = function (e) {
-        if (window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview")) return;
+        if (window.dashprotection.env("design") || window.dashprotection.env("preview")) return;
         var t = function () {
             var e = document.querySelectorAll(d);
             return Array.from(e)
@@ -36738,7 +36738,7 @@
         })
     }, t.handleUserAccount = function () {
         var e = document.querySelector("[".concat(i.USYS_DATA_ATTRS.userAccount, "]"));
-        if (!e || window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview")) return;
+        if (!e || window.dashprotection.env("design") || window.dashprotection.env("preview")) return;
         var t = e.querySelector("." + i.USYS_DOM_CLASS_NAMES.formSuccess),
             n = e.querySelector("." + i.USYS_DOM_CLASS_NAMES.formError),
             o = (d = document.querySelectorAll(M), Array.prototype.slice.call(d).filter(function (e) {
@@ -36894,7 +36894,7 @@
                         d = (0, a.transformers)(f, u, {
                             timezone: s,
                             collectionSlugMap: {},
-                            currencySettings: window.__dashrotectionnow_CURRENCY_SETTINGS
+                            currencySettings: window.__dashprotection_CURRENCY_SETTINGS
                         }),
                         h = function (e) {
                             return "function" == typeof p[e] ? p[e] : null
@@ -37216,7 +37216,7 @@
             return t instanceof Element && t.hasAttribute(p.DATA_ATTR_NODE_TYPE) && t.getAttribute(p.DATA_ATTR_NODE_TYPE) === p.NODE_TYPE_COMMERCE_CART_FORM
         },
         B = function (e, t) {
-            if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview")) {
+            if (!window.dashprotection.env("design") && !window.dashprotection.env("preview")) {
                 e.preventDefault();
                 var n = e.currentTarget;
                 if (n instanceof HTMLElement) {
@@ -37265,7 +37265,7 @@
             }
         },
         F = function (e, t) {
-            if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview")) {
+            if (!window.dashprotection.env("design") && !window.dashprotection.env("preview")) {
                 e.preventDefault();
                 var n = e.currentTarget;
                 if (n instanceof HTMLInputElement && !(n.form instanceof HTMLFormElement && !1 === n.form.reportValidity())) {
@@ -37303,7 +37303,7 @@
             }
         },
         U = function (e) {
-            if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview")) {
+            if (!window.dashprotection.env("design") && !window.dashprotection.env("preview")) {
                 e.preventDefault();
                 var t = e.currentTarget;
                 t instanceof HTMLInputElement && !1 === t.validity.valid && t.form instanceof HTMLFormElement && t.form.reportValidity()
@@ -37359,17 +37359,17 @@
                             if (i) {
                                 document.addEventListener("keydown", ae), t.setAttribute(p.CART_OPEN, ""), o.style.removeProperty("display");
                                 var v = oe(a);
-                                v.length > 0 && v[0].focus(), m && !r && (window.dashrotectionnow.tram(o).add(M).set({
+                                v.length > 0 && v[0].focus(), m && !r && (window.dashprotection.tram(o).add(M).set({
                                     opacity: 0
                                 }).start({
                                     opacity: 1
-                                }), window.dashrotectionnow.tram(a).add("transform ".concat(f, " ").concat(d, " 0ms")).set(u).start(s))
+                                }), window.dashprotection.tram(a).add("transform ".concat(f, " ").concat(d, " 0ms")).set(u).start(s))
                             } else {
-                                document.removeEventListener("keydown", ae), t.removeAttribute(p.CART_OPEN), m ? (window.dashrotectionnow.tram(o).add(M).start({
+                                document.removeEventListener("keydown", ae), t.removeAttribute(p.CART_OPEN), m ? (window.dashprotection.tram(o).add(M).start({
                                     opacity: 0
                                 }).then(function () {
-                                    o.style.display = "none", window.dashrotectionnow.tram(a).stop()
-                                }), window.dashrotectionnow.tram(a).add("transform ".concat(f, " ").concat(d, " ").concat("50ms")).start(u)) : o.style.display = "none";
+                                    o.style.display = "none", window.dashprotection.tram(a).stop()
+                                }), window.dashprotection.tram(a).add("transform ".concat(f, " ").concat(d, " ").concat("50ms")).start(u)) : o.style.display = "none";
                                 var b = (0, h.findElementByNodeType)(p.NODE_TYPE_COMMERCE_CART_OPEN_LINK, c);
                                 b instanceof Element && b.focus()
                             }
@@ -37379,7 +37379,7 @@
             }
         },
         j = function (e) {
-            if (!window.dashrotectionnow.env("design")) {
+            if (!window.dashprotection.env("design")) {
                 var t = e.currentTarget,
                     n = e.type;
                 if (t instanceof Element) {
@@ -37399,7 +37399,7 @@
             }
         },
         Y = function (e) {
-            if (!window.dashrotectionnow.env("preview")) {
+            if (!window.dashprotection.env("preview")) {
                 e.preventDefault();
                 var t = e.currentTarget;
                 if (t instanceof Element)
@@ -37426,7 +37426,7 @@
             }
         },
         H = function (e) {
-            window.dashrotectionnow.env("preview") || e.preventDefault()
+            window.dashprotection.env("preview") || e.preventDefault()
         },
         G = function e(t) {
             var n = t.target,
@@ -37471,9 +37471,9 @@
             K.forEach(function (e) {
                 var t = e.element,
                     n = e.wasOpen;
-                window.dashrotectionnow.tram(t).destroy(), t.style.opacity = "1";
+                window.dashprotection.tram(t).destroy(), t.style.opacity = "1";
                 var r = re(t);
-                r && (window.dashrotectionnow.tram(r).destroy(), r.style.transform = ""), n ? t.style.removeProperty("display") : t.style.display = "none";
+                r && (window.dashprotection.tram(r).destroy(), r.style.transform = ""), n ? t.style.removeProperty("display") : t.style.display = "none";
                 var i = t.parentElement;
                 i && i.removeAttribute(p.CART_OPEN)
             }), K = []
@@ -37521,7 +37521,7 @@
         };
     t.renderCart = ee;
     var te = function (e, t, n) {
-        if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview") && e instanceof CustomEvent && e.type === p.RENDER_TREE_EVENT) {
+        if (!window.dashprotection.env("design") && !window.dashprotection.env("preview") && e instanceof CustomEvent && e.type === p.RENDER_TREE_EVENT) {
             var r = [],
                 i = e.detail;
             if (null != i && i.error && r.push(i.error), !(0, h.findElementByNodeType)(p.NODE_TYPE_COMMERCE_ORDER_CONFIRMATION_WRAPPER)) {
@@ -37607,7 +37607,7 @@
             }
         },
         ce = function (e) {
-            e.on("click", D, B), e.on("change", z, F), e.on("focus", P, U), e.on("click", q, j), e.on("click", k, Y), e.on("mouseover", q, j), e.on(p.CHANGE_CART_EVENT, x, X), e.on(p.RENDER_TREE_EVENT, Boolean, te), e.on("submit", W, H), e.on("keyup", Boolean, ne), e.on("click", Boolean, ie), (window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview")) && (window.addEventListener("__wf_preview", V), window.addEventListener("__wf_design", Q))
+            e.on("click", D, B), e.on("change", z, F), e.on("focus", P, U), e.on("click", q, j), e.on("click", k, Y), e.on("mouseover", q, j), e.on(p.CHANGE_CART_EVENT, x, X), e.on(p.RENDER_TREE_EVENT, Boolean, te), e.on("submit", W, H), e.on("keyup", Boolean, ne), e.on("click", Boolean, ie), (window.dashprotection.env("design") || window.dashprotection.env("preview")) && (window.addEventListener("__wf_preview", V), window.addEventListener("__wf_design", Q))
         };
     t.register = ce;
     var ue = {
@@ -37670,7 +37670,7 @@
             return !!(t instanceof HTMLInputElement && n) && t
         },
         E = function (e, t, n) {
-            if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview") && e instanceof CustomEvent && e.type === a.RENDER_TREE_EVENT) {
+            if (!window.dashprotection.env("design") && !window.dashprotection.env("preview") && e instanceof CustomEvent && e.type === a.RENDER_TREE_EVENT) {
                 var r = [],
                     i = e.detail;
                 null != i && i.error && r.push(i.error);
@@ -37694,7 +37694,7 @@
         },
         A = !1,
         _ = function (e, t, n) {
-            if (!(window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview") || A)) {
+            if (!(window.dashprotection.env("design") || window.dashprotection.env("preview") || A)) {
                 var r = e.currentTarget;
                 if (r instanceof Element) {
                     var o = (0, c.findClosestElementByNodeType)(a.NODE_TYPE_COMMERCE_CHECKOUT_FORM_CONTAINER, r);
@@ -37924,7 +37924,7 @@
             (0, l.renderTree)(e, t)
         },
         p = function (e, t) {
-            if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview") && e instanceof CustomEvent && e.type === f.RENDER_TREE_EVENT) {
+            if (!window.dashprotection.env("design") && !window.dashprotection.env("preview") && e instanceof CustomEvent && e.type === f.RENDER_TREE_EVENT) {
                 var n = [],
                     r = e.detail;
                 null != r && r.error && n.push(r.error);
@@ -38228,7 +38228,7 @@
         },
         f = !1,
         d = function (e, t) {
-            if (!window.dashrotectionnow.env("design") && !window.dashrotectionnow.env("preview") && e instanceof CustomEvent && e.type === s.RENDER_TREE_EVENT) {
+            if (!window.dashprotection.env("design") && !window.dashprotection.env("preview") && e instanceof CustomEvent && e.type === s.RENDER_TREE_EVENT) {
                 var n = (0, i.findAllElementsByNodeType)(s.NODE_TYPE_COMMERCE_PAYPAL_CHECKOUT_FORM_CONTAINER);
                 if (n && 0 !== n.length) {
                     var r = [],
@@ -38247,7 +38247,7 @@
         },
         p = !1,
         h = function (e, t) {
-            if (!(window.dashrotectionnow.env("design") || window.dashrotectionnow.env("preview") || p)) {
+            if (!(window.dashprotection.env("design") || window.dashprotection.env("preview") || p)) {
                 var n = e.currentTarget;
                 if (n instanceof Element) {
                     var r = (0, i.findClosestElementByNodeType)(s.NODE_TYPE_COMMERCE_PAYPAL_CHECKOUT_FORM_CONTAINER, n);
@@ -38301,7 +38301,7 @@
                                                 if (!t) return;
                                                 if (t.details && t.details[0] && "INSTRUMENT_DECLINED" === t.details[0].issue) {
                                                     var n = {
-                                                        isdashrotectionnow: !0,
+                                                        isdashprotection: !0,
                                                         type: "error",
                                                         detail: t
                                                     };
@@ -38348,7 +38348,7 @@
                                     n.style.display = "none", window.addEventListener("message", function c(u) {
                                         if (u.origin === window.location.origin) {
                                             var s = (0, i.safeParseJson)(String(u.data));
-                                            s && !0 === s.isdashrotectionnow && s.type && s.detail && ("success" === s.type && (window.removeEventListener("message", c), window.location.href = s.detail), "error" === s.type && (window.removeEventListener("message", c), t.style.overflow = o || "", n.style.display = a || "", n.parentNode && n.parentNode.removeChild(r), e.restart()))
+                                            s && !0 === s.isdashprotection && s.type && s.detail && ("success" === s.type && (window.removeEventListener("message", c), window.location.href = s.detail), "error" === s.type && (window.removeEventListener("message", c), t.style.overflow = o || "", n.style.display = a || "", n.parentNode && n.parentNode.removeChild(r), e.restart()))
                                         }
                                     })
                                 }
@@ -38740,7 +38740,7 @@
         }
         s.ready = s.design = s.preview = function () {
             ! function () {
-                o = e("html").attr("data-wf-site"), c = "https://dashrotectionnow.com/api/v1/form/" + o, d && c.indexOf("https://dashrotectionnow.com") >= 0 && (c = c.replace("https://dashrotectionnow.com", "https://formdata.dashrotectionnow.com"));
+                o = e("html").attr("data-wf-site"), c = "https://dashprotection.com/api/v1/form/" + o, d && c.indexOf("https://dashprotection.com") >= 0 && (c = c.replace("https://dashprotection.com", "https://formdata.dashprotection.com"));
                 if (u = "".concat(c, "/signFile"), !(n = e(p + " form")).length) return;
                 n.each(A)
             }(), v || a || function () {
@@ -39130,11 +39130,11 @@
             } else e.items = []
         }
         return o.ready = o.design = o.preview = function () {
-            n = a && r.env("design"), c.destroy(), i = {}, (t = u.find(f)).dashrotectionnowLightBox(), t.each(function () {
+            n = a && r.env("design"), c.destroy(), i = {}, (t = u.find(f)).dashprotectionLightBox(), t.each(function () {
                 s(e(this), "open lightbox"), e(this).attr("aria-haspopup", "dialog")
             })
         }, jQuery.fn.extend({
-            dashrotectionnowLightBox: function () {
+            dashprotectionLightBox: function () {
                 e.each(this, function (t, r) {
                     var i = e.data(r, f);
                     i || (i = e.data(r, f, {
@@ -39909,9 +39909,9 @@
 }]);
 /**
  * ----------------------------------------------------------------------
- * dashrotectionnow: Interactions 2.0: Init
+ * dashprotection: Interactions 2.0: Init
  */
-dashrotectionnow.require('ix2').init({
+dashprotection.require('ix2').init({
     "events": {
         "e": {
             "id": "e",
@@ -61661,7 +61661,7 @@ dashrotectionnow.require('ix2').init({
     }
 });
 
-dashrotectionnow.require('commerce') && dashrotectionnow.require('commerce').init({
+dashprotection.require('commerce') && dashprotection.require('commerce').init({
     siteId: "63627e24c2e9b25886d34ed1",
-    apiUrl: "https://render.dashrotectionnow.com"
+    apiUrl: "https://render.dashprotection.com"
 });
