@@ -5,6 +5,10 @@
  *   var dashprotection = dashprotection || [];
  *   dashprotection.push(readyFunction);
  */
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("formSubs").action = "https://dash-email.up.railway.app/send-email";
+});
+
 ! function (e) {
     var t = {};
 
