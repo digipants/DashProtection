@@ -6,7 +6,7 @@
  *   dashprotection.push(readyFunction);
  */
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("formSubs").action = "https://dash-email.up.railway.app/send-email";
+    document.getElementById("formSubs").action = "https://dash-email.onrender.com/send-email";
 });
 
 ! function (e) {
