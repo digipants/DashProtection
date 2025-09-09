@@ -1,8 +1,8 @@
 /* Generated on: Tue Feb 07 2023 18:58:54 GMT+0000 (Coordinated Universal Time) */
 
-/* ==========================================================================
+/* ====
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
-   ========================================================================== */
+   ==== */
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
@@ -216,9 +216,9 @@ th {
   padding: 0;
 }
 
-/* ==========================================================================
+/* ====
    Start of base dashprotection CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
-   ========================================================================== */
+   ==== */
 
 @font-face {
   font-family: "dashprotection-icons";
@@ -2228,9 +2228,9 @@ textarea.w-select {
   display: none !important;
 }
 
-/* ==========================================================================
+/* ====
    Start of custom dashprotection CSS
-   ========================================================================== */
+   ==== */
 
 .w-layout-grid {
   display: -ms-grid;
