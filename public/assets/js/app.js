@@ -5,6 +5,10 @@
  *   var dashprotection = dashprotection || [];
  *   dashprotection.push(readyFunction);
  */
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("formSubs").action = "https://dash-email.onrender.com/send-email";
+});
+
 ! function (e) {
     var t = {};
 
